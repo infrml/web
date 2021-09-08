@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'gatsby'
 import GitHubButton from 'react-github-btn'
+import logo from '../img/logo.png'
 
 const Navbar = class extends React.Component {
   constructor(props) {
@@ -41,7 +42,7 @@ const Navbar = class extends React.Component {
         <div className="container flex-around">
           <div className="navbar-brand logo">
             <Link to="/" className="navbar-item" title="Logo">
-              <h1>Informal | Tech:Life </h1>
+              <img src={logo} alt="Informal | Tech:Life">
             </Link>
               <GitHubButton href="https://github.com/infrml">Follow</GitHubButton>
             {/* Hamburger menu */}
