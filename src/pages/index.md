@@ -2,6 +2,6 @@
 templateKey: index-page
 title: Alex Murphy
 image: /img/home-jumbotron.jpg
-heading: Alex Murphy
-subheading: Developer with a flair for design
+heading: Informal Blog
+subheading: Informal logs of everything around.
 ---
